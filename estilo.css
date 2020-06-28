@@ -1,0 +1,290 @@
+
+#topo{
+	height:120px;
+	width:100%;
+	background: url("imagens/top_salgados.jpg");
+	background-size:cover;
+	top:0;
+	left:0;
+	position:fixed;
+	z-index:1;
+}
+
+#imagem_topo{
+	width:10%;
+	height:350%;
+	position:absolute;
+	margin-top:-110px;
+	z-index:2;
+}
+
+#menu{
+	height:40px;
+	width: 108%;
+	margin-left:-6%;
+	padding-left:6%;
+	padding-right:15%;
+	background-color:#FF0000;
+	position: fixed;
+	top:120px;
+	z-index:1;
+}
+
+#esquerda{
+	float:left;
+	width:65%;
+}
+
+#direita{
+	float:right;
+	width:35%;
+}
+
+#menu ul{
+	display:flex;
+	font-size:20px;
+	font-family:MV boli regular;
+	font-weight:900;
+	list-style-type: none;
+	margin:-10px; 
+	margin-left:42%;
+
+}
+#link{
+	padding: 5px 10px;
+	text-decoration: none;
+	color:#FFFFFF;
+}
+
+#link_clicado{
+	padding: 5px 10px;
+	text-decoration: none;
+	color:#000000;
+}
+
+#link:hover {
+	color: #000000;	
+}
+
+#facebook{
+	margin-left:-300%;	
+	width:25px;
+	height:25px;
+    transform: scale(1.0);
+}
+
+#facebook:hover{
+    transform: scale(1.6);
+}
+
+#twiter{
+	width:25px;
+	height:25px;
+	margin-left:-220%;	
+	transform: scale(1.0);	
+}
+
+#instagram{
+	width:25px;
+	height:25px;
+	margin-left:-150%;	
+	transform: scale(1.0);	
+}
+
+#youtube{
+	width:25px;
+	height:25px;
+	margin-left:-50%;	
+	transform: scale(1.0);
+}
+
+#instagram:hover,#twiter:hover,#youtube:hover{
+	transform: scale(1.6);
+}
+
+#corpo{
+	height:700px;
+	width:102%;
+	margin-top:160px;
+	padding-top:100px;
+	margin-left:-1%;
+	background: url("imagens/fundo13.jpg");
+	background-size:cover;
+}
+
+#corpo_sobre{
+	height:700px;
+	width:102%;
+	margin-top:160px;
+	padding-top:100px;
+	margin-left:-1%;
+	background-color:#ffffcc;
+	background-size:cover;
+}
+#Baff_nome{
+	margin-left:400px;
+	width:800px;
+	height:700px;
+	
+}
+/*---------------------------------------INICIO-------------------------------------*/
+
+.slide {
+	
+    width: 600px;
+	height:400px;
+	margin-left:29%;
+	margin-top:2%;
+    border:5px solid #fff;
+    background: #000000;
+    overflow: hidden;
+}
+
+#img_inicio {
+   max-width: 600px;
+   height:400px;
+   margin: 0;
+   float:left;
+}
+
+#tamanho_total {
+   width:1800px;
+   animation: animacao 11s infinite;
+}
+
+@keyframes animacao {
+	0%   { margin-left: 0; }
+	27.33%  { margin-left: 0 }
+	33.33%  { margin-left: -600px; }
+	60.66% { margin-left: -600px; }
+	66.66% { margin-left: -1200px; }
+	90.99% { margin-left: -1200px; }
+	100%  { margin-left: 0 }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*---------------------------------------CONTATO-------------------------------------*/
+
+#corpo form table{
+	margin-top:5%;
+	margin-left:39%;
+}
+#Titulo_Contato{
+	color:#8B4C39;
+	margin-left:38%;
+	font-family:MV boli regular;	
+}
+#Tabela_Contato{
+	font-family:MV boli regular;	
+	
+}
+
+
+#enviar{
+	margin-top:2%;
+	margin-left:48%;
+	font-family:MV boli regular;	
+	
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*---------------------------------------PRODUTOS-------------------------------------*/
+
+#produtos{
+	padding-left:12%;
+	text-align:center;
+	font-family:MV boli regular;
+}
+
+#produtos td{
+}
+
+#imagemTD{
+	padding:45px;	
+}
+
+#produtos img{
+	width:240px;
+	height:190px;
+	border:2px solid #FFF;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*---------------------------------------CURIOSIDADES-------------------------------------*/
+#curiosidades{
+	border: 5px solid;
+	border-color:#FF0000;
+	margin-top:1%;
+	margin-left:20%;
+	width:60%;
+	height:60%;
+	background-color:#FF6347;
+}
+#curiosidades_foto img{
+	border: 3px solid;
+	border-color:#fff;
+	margin-left:57%;
+	margin-top:2%;
+	width:40%;
+	height:350px;
+}
+#texto{
+	margin-left:2%;
+	position:absolute;
+	font-family:MV boli regular;
+	font-size:15px;	
+}
+#texto h1{
+	padding-left:70px;
+	color:#fff;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+
+/*---------------------------------------SOBRE-------------------------------------*/
+
+#img_sobre{
+	margin-top:-100px;
+	margin-left:30%;
+	width:1100px;
+	height:780px;
+}
+
+#texto_sobre{
+	text-indent:4em;
+	font-size:19px;
+	font-family:MV boli regular;
+	position:absolute;
+	margin-top:70px;
+	margin-left:100px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+body{
+overflow-x:hidden;	
+}
+
+#rodape{
+	height:100px;
+	width:110%;
+	color: #FFFFFF;
+	margin:-1%;
+	padding-left:8%;
+	padding-top:20px;
+	text-align:center;
+	font-family:MV boli regular;
+	background-color:#000000;
+}
+
+#rodape table{
+	width:75%;	
+}
+
+/*TESTAR PARA ALGUMAS RESOLUÇÕES DEPOIS:*/
+@media (min-width:21px) and (max-width: 2000px)
+{
+
+
+}
+
